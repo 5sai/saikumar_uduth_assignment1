@@ -1,0 +1,157 @@
+*{
+    background-color: #bffdee;
+}
+.name{
+        
+}
+.name h1{
+height: 20px;
+padding:0px;
+margin-top: 6%;
+text-align: center;
+font-style: oblique;
+text-decoration-color: burlywood;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttons{
+      display: flex;
+      justify-content: center;`
+      align-items: center;
+      height: 0px;
+      padding:0px;
+      margin: 30px;
+}
+.buttons .button1{
+    margin: 5px;
+
+}
+.buttons .button2{
+    margin: 5px;
+
+}
+.buttons a{
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+h3{
+    margin-top: 100px;
+}
+.Information{
+    padding-top: 100px; 
+    position: center;
+    text-align:center;
+    width: 100%;
+    border-color: transparent;
+}
+
+
+#fname {
+    text-align: center;
+    border-bottom-color: tomato;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding:5px 15px;
+    margin: 15px 8px;
+}
+#lname {
+    text-align: center;
+    border-bottom-color: tomato;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding:5px 15px;
+    margin: 15px 8px;
+  
+}
+.Information #fname:hover{
+    width:180px;
+}
+.Information #lname:hover{
+    width:180px;
+}
+
+
+
+
+
+
+
+
+
+   <select id="browsers">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Trans Gender">Transgender</option>
+                        </select><br>
+
+
+
+
+#submit{
+    width: 150px;
+    margin-top: 5px;
+    border-radius: 25px;
+    border-color: darkred;
+    background-color: #ffe8af;
+}
+#submit:hover{
+    background-color: lightsalmon;
+}
+#submit:active{
+    background-color: ;
+}
+
+
+
+.box{
+    background-color: hsl(118, 100%, 89%);
+    width: 350px;
+    height: 350px;
+    margin-left: 500px;
+    margin-top: 170px;
+    border-radius: 50%;
+}
+
+.details{
+    text-align: center;
+    padding: 50px;
+}
+#username,#password{
+    text-align: center;
+}
+#submit{
+
+    background-color: aquamarine;
+    border-radius: 25px;
+    width: 85px; 
+    border-color: blue;  
+}
+.details h5 {
+    text-align: center;
+}
+.details h5  a{
+    text-decoration: none;
+}
+
+
+
+ <div class="box">
+        <div class="details">
+            <h2>Login</h2>
+            <input type="text" id="username" name="username" value="username"><br><br>
+            <input type="password" id="password" name="password" value="password"><br><br>
+            <input type="submit" id="submit" name="submit" value="submit"> 
+            <input type="reset" id="submit" name="reset" value="reset">           
+            <h5><a href="#">reset password</a></h5>
+        </div>
+    </div>
+
+6

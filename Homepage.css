@@ -1,0 +1,45 @@
+.Head{
+background-color: rgb(130, 206, 219);
+text-align: center;
+margin: 0px;
+padding: 5px;
+}
+
+.menubar{
+    background-color: greenyellow;
+    text-align: right;
+    margin-top:-19.3px;
+ 
+}
+ul li:hover{
+    background-color: salmon;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+a{
+   text-decoration: none;
+   padding: 5px;
+   color: rgb(0, 0, 0);
+}
+
+#Home,#About,#Contact,#Features{
+    background-color:rgb(28, 156, 241);  ;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+.a{
+    margin-top: -10px;
+    background-color: rgb(28, 156, 241);  
+    padding: 2px;
+    color: white;
+    width: 100%;
+    border:2px solid red;
+    word-break: break-all;
+}

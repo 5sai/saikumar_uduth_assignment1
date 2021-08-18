@@ -1,0 +1,34 @@
+body{
+    background-color: grey;
+}
+.box{
+    background-color: hsl(118, 100%, 89%);
+    width: 400px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: 150px;
+    border-radius: 2%;
+}
+
+.details{
+    text-align: center;
+    padding: 80px;
+}
+#username,#password{
+    text-align: center;
+}
+#submit{
+
+    background-color: aquamarine;
+    border-radius: 25px;
+    width: 85px; 
+    border-color: blue;  
+}
+.details h5 {
+    text-align: center;
+}
+.details h5  a{
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,71 @@
+*{
+ background-color: hsl(142, 100%, 93%);
+ text-align: center;
+}
+
+.Middle{
+    padding: 50px;
+    background-color: rgb(178, 213, 243);
+    border-radius: 20px;
+    width: 700px;
+    height: 450px;
+    margin-left: 290px;
+    margin-top: 50px;    
+}
+
+img{
+  border-radius:80%;
+  width: 100px;
+  height: 100px;
+}
+
+.Information{
+    padding-top: 20px; 
+    position: center;
+    text-align:center;
+    width: 100%;
+    border-color: transparent;
+    background-color: rgb(178, 213, 243);
+}
+
+#fname,#lname,#email,#MobileNumber,#date,#Address,#Username,#password,#browsers{
+    text-align: center;
+    background-color: rgb(178, 213, 243);
+    border-bottom-color: tomato;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    margin: 13px;
+    color: hsla(0, 0%, 0%, 0.356);
+}
+
+ #fname:hover, #lname:hover,
+ #email:hover, #MobileNumber:hover,
+  #Address:hover,
+ #Username:hover, #password:hover
+ {
+     width: 185px;
+     border-bottom-color: purple;
+ }
+
+#submit{
+    width: 150px;
+    margin-top: 10px 0px ;
+    border-radius: 25px;
+    border-color: darkred;
+    background-color: #ffe8af;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#submit:hover{
+    background-color: lightsalmon;
+}
+
+#submit:active{
+    background-color:moccasin;
+}
+
+
+
